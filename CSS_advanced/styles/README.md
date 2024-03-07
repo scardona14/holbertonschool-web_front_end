@@ -50,6 +50,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 3. Ensure your code follows the mentioned requirements.
 4. Start exploring and enhancing your CSS skills!
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Author<Sean A. Cardona>
