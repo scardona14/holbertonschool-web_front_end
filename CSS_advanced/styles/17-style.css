@@ -26,7 +26,7 @@
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --section-footer-padding: 5rem 0 1rem;
+    --footer-padding: 5rem 0 1rem;
 }
 *, *:before, *:after {
     box-sizing: border-box;
@@ -72,7 +72,7 @@ a:active {
     text-align: var(--section-footer-align);
     padding: var(--section-footer-padding);
 }
-.card-category, .section-tagline {
+.card-category {
     color: var(--color-primary);
 }
 h1, h2, h3, h4, h5, h6 {
