@@ -185,7 +185,7 @@ a:active {
   height: 10rem;
 }
 .card-testimonial .card-quote cite {
-  display:block;
+  display: block;
   padding: 1rem;
   color: var(--color-primary);
 }
