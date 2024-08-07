@@ -1,5 +1,5 @@
 /* Margin mizin */
-@mixin margin-mixin($margin-size-pixels) {
+@mixin margin-mixin($left, $right) {
     margin-left: $left;
     margin-right: $right;
 }
