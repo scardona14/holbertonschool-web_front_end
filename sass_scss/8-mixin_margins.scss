@@ -1,0 +1,13 @@
+/* Margin mizin */
+@mixin margin-mixin($margin-size-pixels) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+body {
+    @include margin-mixin(10px);
+}
+
+div {
+    @include margin-mixin(15px);
+}
