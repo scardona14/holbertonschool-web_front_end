@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>0-index</title>
+    <title>1-index</title>
   </head>
   <body>
     <div>
@@ -18,8 +18,15 @@
       function setCookies() {
         const firstname = document.getElementById("firstname").value;
         const email = document.getElementById("email").value;
-        if (firstname) document.cookie = `firstname=${firstname}`;
-        if (email) document.cookie = `email=${email}`;
+        const date = new Date();
+        date.setDate(date.getDate() + 10);
+        const expires = "expires=" + date.toUTCString();
+        if (firstname) {
+          document.cookie = `firstname=${firstname}; ${expires}; path=/`;
+        }
+        if (email) {
+          document.cookie = `email=${email}; ${expires}; path=/`;
+        }
       }
 
       function showCookies() {
